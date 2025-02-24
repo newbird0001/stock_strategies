@@ -8,7 +8,7 @@ from stock_strategy.select_time.Position import creat_position_at_close
 pd.set_option('display.max_rows', 5000)
 # 读入数据
 df = pd.read_csv(
-    filepath_or_buffer='C:\\Users\\TTT\\Desktop\\pythonProject\\data\\home_work_data\\stock\\sz000002.csv',
+    filepath_or_buffer='',//file_path
     encoding='gbk',
     skiprows=1,
     parse_dates=['交易日期'],
